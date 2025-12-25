@@ -10,6 +10,8 @@ This project implements a student presence tracking system using an ESP32, an MF
 - Persistent storage of users and admin UID in Flash
 - Factory-reset button to erase stored data and return to First Boot
 
+<img width="878" height="656" alt="image" src="https://github.com/user-attachments/assets/3d287629-e658-4079-977a-8f9c68db92d5" />
+
 ## Components
 1. ESP32 development board (USB cable for programming)
 2. MFRC522 RFID reader
@@ -47,6 +49,11 @@ Use the provided breadboard schematic as the wiring reference. The schematic sho
 - Buttons are wired so pressing the button connects the GPIO to 3.3V; internal pull-downs keep the line low when unpressed.
 
 If you want, add the breadboard image in the repository (e.g., `schematic.png`) so visitors can visually confirm wiring.
+
+
+
+<img width="1001" height="617" alt="image" src="https://github.com/user-attachments/assets/931496c8-05ad-409d-be0d-14474b3832cb" />
+
 
 ## System Modes (finite state machine)
 1. First Boot
@@ -107,5 +114,3 @@ Or use the PlatformIO extension in VS Code to build, upload and open the serial 
 ## Credits
 Shiraz University — Microcontroller Lab Project (Fall-2025)
 
----
-If you want, I can also commit and push this README for you. Alternatively, I can open a pull request with the image embedded.
